@@ -1,0 +1,375 @@
+WEBVTT
+00:00:00.000 --> 00:00:03.000
+maudites animations combien de fois là-bas
+00:00:02.000 --> 00:00:06.000
+nous nous sommes retrouvés à parcourir des sites
+00:00:03.000 --> 00:00:09.000
+internet vraiment très très moche non plus
+00:00:06.000 --> 00:00:11.000
+au moins beaucoup est p ceci
+00:00:09.000 --> 00:00:13.000
+cela arrive parce que très souvent le
+00:00:11.000 --> 00:00:16.000
+les développeurs ne lui donnent pas raison
+00:00:13.000 --> 00:00:18.000
+importance aux animations étant donné que
+00:00:16.000 --> 00:00:20.000
+le site n&#39;a qu&#39;à fournir le
+00:00:18.000 --> 00:00:23.000
+informations mais n&#39;en tiennent pas compte
+00:00:20.000 --> 00:00:25.000
+chose très importante appelée utilisateur
+00:00:23.000 --> 00:00:27.000
+expérience en fait un site avec
+00:00:25.000 --> 00:00:30.000
+des animations qui attirent l&#39;attention avec l&#39;animation
+00:00:27.000 --> 00:00:33.000
+Je ne parle pas des choses qui volent au hasard
+00:00:30.000 --> 00:00:34.000
+Je veux dire une réponse pour chaque action qui
+00:00:33.000 --> 00:00:35.000
+l&#39;utilisateur effectue dans notre
+00:00:34.000 --> 00:00:38.000
+placer
+00:00:35.000 --> 00:00:39.000
+trivialement en le survolant
+00:00:38.000 --> 00:00:42.000
+une clé la clé doit remplir
+00:00:39.000 --> 00:00:44.000
+une action change de couleur oui mais peut etre
+00:00:42.000 --> 00:00:46.000
+même grossir ou se déplacer
+00:00:44.000 --> 00:00:49.000
+légèrement pour faire comprendre au navigateur
+00:00:46.000 --> 00:00:52.000
+lequel cliquer sur ce bouton ira à
+00:00:49.000 --> 00:00:54.000
+effectuer réellement une action ces
+00:00:52.000 --> 00:00:56.000
+les animations sont très souvent réalisées avec
+00:00:54.000 --> 00:00:58.000
+jquery et peut être beaucoup aussi
+00:00:56.000 --> 00:01:01.000
+très complexe
+00:00:58.000 --> 00:01:05.000
+cependant, il existe une méthode beaucoup plus simple
+00:01:01.000 --> 00:01:07.000
+et aussi plus rapide appelé anime it css
+00:01:05.000 --> 00:01:09.000
+dans cette vidéo je l&#39;explique
+00:01:07.000 --> 00:01:12.000
+détail ne nous attardons pas trop
+00:01:09.000 --> 00:01:14.000
+alors passons à la pratique en passant par
+00:01:12.000 --> 00:01:20.000
+commencez maintenant allons sur google
+00:01:14.000 --> 00:01:22.000
+trivialement on tape anime point css a
+00:01:20.000 --> 00:01:24.000
+ce point on nous proposera quelques
+00:01:22.000 --> 00:01:27.000
+résultats de recherche quoi
+00:01:24.000 --> 00:01:29.000
+nous nous soucions et css animé qui est
+00:01:27.000 --> 00:01:31.000
+joignable via l&#39;adresse anime
+00:01:29.000 --> 00:01:35.000
+c&#39;est du style punto
+00:01:31.000 --> 00:01:38.000
+nous cliquons et jusqu&#39;à ce que nous réalisions
+00:01:35.000 --> 00:01:40.000
+interface très simple est
+00:01:38.000 --> 00:01:43.000
+ça marche à peu près comme ça
+00:01:40.000 --> 00:01:46.000
+ici nous avons pratiquement l&#39;effet
+00:01:43.000 --> 00:01:48.000
+final que nous obtiendrons en sélectionnant un
+00:01:46.000 --> 00:01:50.000
+évidemment effet css
+00:01:48.000 --> 00:01:52.000
+qui est pratiquement présent dans la partie
+00:01:50.000 --> 00:01:54.000
+dans la première section po à droite
+00:01:52.000 --> 00:01:56.000
+donc si nous planons ici et
+00:01:54.000 --> 00:01:59.000
+on descend on voit cette liste
+00:01:56.000 --> 00:02:02.000
+augmente de plus en plus et essaie trivialement
+00:01:59.000 --> 00:02:05.000
+cliquer sur fondu à gauche
+00:02:02.000 --> 00:02:08.000
+voyons en fait ce qui se passe
+00:02:05.000 --> 00:02:14.000
+s&#39;estomper foi en laisser s&#39;estomper lumineux
+00:02:08.000 --> 00:02:16.000
+alliances knapp et donc flip et hynix flipout
+00:02:14.000 --> 00:02:18.000
+c&#39;est pratiquement tout
+00:02:16.000 --> 00:02:21.000
+effectue donc tous les dons qui
+00:02:18.000 --> 00:02:24.000
+on peut faire avec anime et css alors
+00:02:21.000 --> 00:02:26.000
+par exemple, nous pouvons nous assurer que al
+00:02:24.000 --> 00:02:28.000
+chargement de notre page
+00:02:26.000 --> 00:02:31.000
+donc écrit dans ce cas aliment
+00:02:28.000 --> 00:02:33.000
+css qui est quoi pour cette classe mais
+00:02:31.000 --> 00:02:36.000
+évidemment nous pouvons donner à cette classe un
+00:02:33.000 --> 00:02:38.000
+quoi que nous puissions dire d&#39;autre
+00:02:36.000 --> 00:02:40.000
+Je ne sais pas quand la page se charge
+00:02:38.000 --> 00:02:40.000
+Je magasine pour le pouls et tout comme
+00:02:40.000 --> 00:02:45.000
+ce
+00:02:40.000 --> 00:02:49.000
+ou un autre effet je ne connais pas le mur
+00:02:45.000 --> 00:02:51.000
+ou le rebond ou mieux encore le
+00:02:49.000 --> 00:02:56.000
+fondu alors qu&#39;il semble fai da hopa
+00:02:51.000 --> 00:02:58.000
+le fondu disparaît ou ou
+00:02:56.000 --> 00:03:01.000
+ou d&#39;autres effets comme dans les itinéraires
+00:02:58.000 --> 00:03:07.000
+hidrotec in ou leurs utilitaires ott per
+00:03:01.000 --> 00:03:10.000
+disparaître en glissant ou en glissant
+00:03:07.000 --> 00:03:11.000
+bref, ce sont tous les petits effets qui
+00:03:10.000 --> 00:03:13.000
+on peut aller mettre au chargement
+00:03:11.000 --> 00:03:16.000
+de la page par exemple moi sur mon blog
+00:03:13.000 --> 00:03:18.000
+et durable rinaldi punto avec le
+00:03:16.000 --> 00:03:22.000
+pratiquement cet effet à l&#39;entrée
+00:03:18.000 --> 00:03:25.000
+ce qui est très banal voyons si on voit ça
+00:03:22.000 --> 00:03:27.000
+cet effet est pratiquement dans le logo
+00:03:25.000 --> 00:03:30.000
+ici ce cadeau s&#39;appelle watles
+00:03:27.000 --> 00:03:34.000
+faux ulta da est très agréable parce qu&#39;il le fait
+00:03:30.000 --> 00:03:35.000
+oui, allez, quel devrait être le meilleur
+00:03:34.000 --> 00:03:37.000
+ce
+00:03:35.000 --> 00:03:38.000
+exact très jolie car de toute façon de
+00:03:37.000 --> 00:03:41.000
+un minimum de déplacement vers la page e
+00:03:38.000 --> 00:03:45.000
+cela rend toujours notre site animé
+00:03:41.000 --> 00:03:47.000
+comment implémenter cet anime
+00:03:45.000 --> 00:03:49.000
+css aller et l&#39;attribuer à certains
+00:03:47.000 --> 00:03:51.000
+éléments très simples
+00:03:49.000 --> 00:03:54.000
+nous descendons ici de toute façon
+00:03:51.000 --> 00:03:56.000
+l&#39;installation à travers différentes typologies
+00:03:54.000 --> 00:03:57.000
+y compris les terminaux aussi mais pas là
+00:03:56.000 --> 00:03:59.000
+intérêt
+00:03:57.000 --> 00:04:01.000
+trivialement si nous avons copié ceci
+00:03:59.000 --> 00:04:04.000
+chaîne de code, puis à l&#39;intérieur
+00:04:01.000 --> 00:04:07.000
+des deux atc copier la pâte andassimo
+00:04:04.000 --> 00:04:09.000
+dans un autre onglet nous aurons évidemment
+00:04:07.000 --> 00:04:11.000
+ce code parfait signifie que le
+00:04:09.000 --> 00:04:14.000
+le lien fonctionne ce que nous faisons
+00:04:11.000 --> 00:04:17.000
+on ferme puis on copie cette ligne de
+00:04:14.000 --> 00:04:19.000
+code et va et viens mec
+00:04:17.000 --> 00:04:19.000
+mano
+00:04:19.000 --> 00:04:28.000
+et bien sûr nous allons créer un
+00:04:21.000 --> 00:04:29.000
+document html puis html et non
+00:04:28.000 --> 00:04:31.000
+nous devons faire autrement que ce qui nous vient à l&#39;esprit
+00:04:29.000 --> 00:04:33.000
+dit ici allez insérer cette ligne
+00:04:31.000 --> 00:04:35.000
+de code alors copions
+00:04:33.000 --> 00:04:38.000
+tout en fait tout le lien et c&#39;est parti
+00:04:35.000 --> 00:04:40.000
+coller à l&#39;intérieur et c&#39;est parti
+00:04:38.000 --> 00:04:45.000
+à l&#39;intérieur puis après le titre
+00:04:40.000 --> 00:04:49.000
+peut-être que nous collons ici, nous pouvons tirer vers le haut
+00:04:45.000 --> 00:04:56.000
+OK parfait
+00:04:49.000 --> 00:04:58.000
+nous sauvegardons le document parfait et bien sûr
+00:04:56.000 --> 00:05:00.000
+maintenant nous devons décider quel élément
+00:04:58.000 --> 00:05:02.000
+donnez ces animations maintenant à l&#39;intérieur
+00:05:00.000 --> 00:05:05.000
+du corps, je vais créer un élément de test
+00:05:02.000 --> 00:05:12.000
+donc je ne connais pas un pib un paragraphe difficile
+00:05:05.000 --> 00:05:17.000
+net c&#39;est l&#39;élément qu&#39;ils veulent
+00:05:12.000 --> 00:05:19.000
+animer enregistrer et nous devons faire seulement
+00:05:17.000 --> 00:05:21.000
+cette opération domine comme elle vient à nous
+00:05:19.000 --> 00:05:22.000
+dit quand par exemple la base et l&#39;insert
+00:05:21.000 --> 00:05:25.000
+ces deux classes
+00:05:22.000 --> 00:05:27.000
+puis le premier qui sera toujours de
+00:05:25.000 --> 00:05:30.000
+rappelez-vous que les âmes double iter
+00:05:27.000 --> 00:05:33.000
+trait de soulignement animé qui est à peu près
+00:05:30.000 --> 00:05:35.000
+la classe qui invoquera l&#39;animation
+00:05:33.000 --> 00:05:38.000
+initialiser puis initialiser
+00:05:35.000 --> 00:05:40.000
+l&#39;animation puis l&#39;autre animée
+00:05:38.000 --> 00:05:43.000
+le double trait de soulignement est suivi du
+00:05:40.000 --> 00:05:43.000
+de l&#39;effet dans ce cas c&#39;est celui-ci
+00:05:43.000 --> 00:05:46.000
+que je veux aller
+00:05:43.000 --> 00:05:49.000
+essayons par exemple de mettre celle de
+00:05:46.000 --> 00:05:54.000
+essayez d&#39;animer des traits de soulignement doubles
+00:05:49.000 --> 00:05:57.000
+rebondir puis espace anime iter 12
+00:05:54.000 --> 00:06:00.000
+rebondissons économisons et voyons quoi
+00:05:57.000 --> 00:06:02.000
+se passe à l&#39;intérieur de notre fichier
+00:06:00.000 --> 00:06:06.000
+puis on apporte le fichier en html lo
+00:06:02.000 --> 00:06:08.000
+nous ouvrons avec un navigateur et lors de l&#39;ouverture ou
+00:06:06.000 --> 00:06:09.000
+lorsque la page est rechargée
+00:06:08.000 --> 00:06:11.000
+nous devrions avoir cette animation alors
+00:06:09.000 --> 00:06:14.000
+au Bauhaus
+00:06:11.000 --> 00:06:15.000
+évidemment moi en ce moment ou le
+00:06:14.000 --> 00:06:18.000
+moment en haut à gauche
+00:06:15.000 --> 00:06:21.000
+car par défaut il commence en haut a
+00:06:18.000 --> 00:06:22.000
+gauche mais je pourrais continuer à dire non
+00:06:21.000 --> 00:06:26.000
+Je sais évidemment avec un style que je ne connais pas
+00:06:22.000 --> 00:06:28.000
+marge top 400 pour être un peu plus
+00:06:26.000 --> 00:06:30.000
+en bas et alignez le texte au centre
+00:06:28.000 --> 00:06:34.000
+puis aligner le texte au centre
+00:06:30.000 --> 00:06:36.000
+base css en rechargeant nous avons au moins un
+00:06:34.000 --> 00:06:38.000
+élément un moment plus mignon
+00:06:36.000 --> 00:06:41.000
+évidemment on peut aller le customiser
+00:06:38.000 --> 00:06:49.000
+comment on veut donc je ne sais pas 50 pixels
+00:06:41.000 --> 00:06:55.000
+couleur je vais mettre un 4 fait 4 ça
+00:06:49.000 --> 00:06:57.000
+un gris et un arial familial en police
+00:06:55.000 --> 00:07:00.000
+ce cas nous avons au moins un titre a
+00:06:57.000 --> 00:07:02.000
+moment le plus mignon parfait
+00:07:00.000 --> 00:07:04.000
+bien sûr on peut dans ce cas
+00:07:02.000 --> 00:07:06.000
+toujours à travers le style anime punto
+00:07:04.000 --> 00:07:08.000
+le changement d&#39;effet se fait évidemment en mètres
+00:07:06.000 --> 00:07:11.000
+qui ne se contente pas de rebondir là où nous devons faire
+00:07:08.000 --> 00:07:14.000
+nous devons copier dans la classe et
+00:07:11.000 --> 00:07:18.000
+collez-le pratiquement à la place du bonus
+00:07:14.000 --> 00:07:20.000
+donc double trait de soulignement animé ou
+00:07:18.000 --> 00:07:23.000
+meilleur doublage pour écouter rebondir
+00:07:20.000 --> 00:07:25.000
+copie parfaite d&#39;où il nous tire
+00:07:23.000 --> 00:07:30.000
+directement aussi double esprits
+00:07:25.000 --> 00:07:32.000
+soulignement où remplir du thé
+00:07:30.000 --> 00:07:35.000
+l&#39;effet que vous voyez que l&#39;effet d&#39;échange
+00:07:32.000 --> 00:07:38.000
+on pourrait aussi aller intégrer le
+00:07:35.000 --> 00:07:41.000
+notre css animé css avec gq hier
+00:07:38.000 --> 00:07:45.000
+je vais préciser je ne vais pas y aller
+00:07:41.000 --> 00:07:48.000
+effets que nous voyons le déploiement où
+00:07:45.000 --> 00:07:50.000
+dérouler quatre lignes puis s&#39;assurer que
+00:07:48.000 --> 00:07:53.000
+pour charger la page de la nôtre
+00:07:50.000 --> 00:07:57.000
+le texte apparaît de cette façon est par exemple
+00:07:53.000 --> 00:07:59.000
+après 5 secondes disparaissent automatiquement e
+00:07:57.000 --> 00:08:02.000
+disparaître alors comme nous le faisons nous devons
+00:07:59.000 --> 00:08:03.000
+allez intégrer jquery mais on le voit un
+00:08:02.000 --> 00:08:07.000
+autre vidéo alors allez sur
+00:08:03.000 --> 00:08:10.000
+se concentrer sur cette intégration qui
+00:08:07.000 --> 00:08:14.000
+ce n&#39;est pas complexe mais il faut quand même
+00:08:10.000 --> 00:08:17.000
+quelques minutes d&#39;explication sont
+00:08:14.000 --> 00:08:19.000
+en particulier un focus jquery ciblé
+00:08:17.000 --> 00:08:22.000
+donc pour l&#39;instant je vous laisse vous amuser
+00:08:19.000 --> 00:08:25.000
+avec les aliments cssn évidemment à bientôt
+00:08:22.000 --> 00:08:25.000
+à la prochaine vidéo

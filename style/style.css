@@ -1,0 +1,25 @@
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px 10px ;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #316bf4;
+    border-radius: 10px;
+  }
+
+  #myProgress2 {
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px 10px ;
+  }
+  
+  #myBar2 {
+    width: 1%;
+    height: 30px;
+    background-color: #316bf4;
+    border-radius: 10px;
+  }

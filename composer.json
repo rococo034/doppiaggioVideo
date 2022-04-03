@@ -1,0 +1,5 @@
+{
+    "require": {
+        "narendravaghela/bitly-client": "^1.0"
+    }
+}

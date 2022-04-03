@@ -1,0 +1,375 @@
+WEBVTT
+00:00:00.000 --> 00:00:03.000
+damn animations how many times there
+00:00:02.000 --> 00:00:06.000
+we found ourselves browsing sites
+00:00:03.000 --> 00:00:09.000
+really very very ugly internet either
+00:00:06.000 --> 00:00:11.000
+at least very much is p this
+00:00:09.000 --> 00:00:13.000
+it happens because very often the
+00:00:11.000 --> 00:00:16.000
+developers don&#39;t give it right
+00:00:13.000 --> 00:00:18.000
+importance to animations considering that
+00:00:16.000 --> 00:00:20.000
+the site only has to provide the
+00:00:18.000 --> 00:00:23.000
+information but do not take into account one
+00:00:20.000 --> 00:00:25.000
+very important thing called user
+00:00:23.000 --> 00:00:27.000
+experience in fact a site with
+00:00:25.000 --> 00:00:30.000
+animations that attention with animation
+00:00:27.000 --> 00:00:33.000
+I don&#39;t mean things that fly randomly
+00:00:30.000 --> 00:00:34.000
+I mean a response for each action that
+00:00:33.000 --> 00:00:35.000
+the user performs within our
+00:00:34.000 --> 00:00:38.000
+site
+00:00:35.000 --> 00:00:39.000
+trivially when hovering over it
+00:00:38.000 --> 00:00:42.000
+a key the key must fulfill
+00:00:39.000 --> 00:00:44.000
+an action change color yes but maybe
+00:00:42.000 --> 00:00:46.000
+even get bigger or move around
+00:00:44.000 --> 00:00:49.000
+slightly to make the navigator understand
+00:00:46.000 --> 00:00:52.000
+which clicking on that button will go to
+00:00:49.000 --> 00:00:54.000
+actually perform an action these
+00:00:52.000 --> 00:00:56.000
+animations are very often done with
+00:00:54.000 --> 00:00:58.000
+jquery and can be a lot too
+00:00:56.000 --> 00:01:01.000
+very complex
+00:00:58.000 --> 00:01:05.000
+however, there is a much simpler method
+00:01:01.000 --> 00:01:07.000
+and also faster called anime it css
+00:01:05.000 --> 00:01:09.000
+in this video I explain it in
+00:01:07.000 --> 00:01:12.000
+detail let&#39;s not dwell too much
+00:01:09.000 --> 00:01:14.000
+then let&#39;s move on to practice by way of
+00:01:12.000 --> 00:01:20.000
+get started right away let&#39;s google it
+00:01:14.000 --> 00:01:22.000
+trivially we type anime point css a
+00:01:20.000 --> 00:01:24.000
+this point we will be offered a few
+00:01:22.000 --> 00:01:27.000
+search results what
+00:01:24.000 --> 00:01:29.000
+we care and animated css that is
+00:01:27.000 --> 00:01:31.000
+reachable via the anime address
+00:01:29.000 --> 00:01:35.000
+it punto style
+00:01:31.000 --> 00:01:38.000
+we click and until we realize
+00:01:35.000 --> 00:01:40.000
+very simple interface is
+00:01:38.000 --> 00:01:43.000
+it pretty much works that way
+00:01:40.000 --> 00:01:46.000
+here we practically have the effect
+00:01:43.000 --> 00:01:48.000
+final that we will get by selecting a
+00:01:46.000 --> 00:01:50.000
+obviously css effect
+00:01:48.000 --> 00:01:52.000
+who is practically present in the part
+00:01:50.000 --> 00:01:54.000
+in the first section po on the right
+00:01:52.000 --> 00:01:56.000
+so if we hover here and
+00:01:54.000 --> 00:01:59.000
+we go down we see this list
+00:01:56.000 --> 00:02:02.000
+increases more and more and trying trivially
+00:01:59.000 --> 00:02:05.000
+to click on fade on the left
+00:02:02.000 --> 00:02:08.000
+let&#39;s actually see what happens
+00:02:05.000 --> 00:02:14.000
+fading dow faith in let fading bright
+00:02:08.000 --> 00:02:16.000
+knapp wedding rings and so flip and hynix flipout
+00:02:14.000 --> 00:02:18.000
+this is practically all
+00:02:16.000 --> 00:02:21.000
+effects therefore all the donations that
+00:02:18.000 --> 00:02:24.000
+we can do with anime and css then
+00:02:21.000 --> 00:02:26.000
+for example, we can ensure that al
+00:02:24.000 --> 00:02:28.000
+loading our page
+00:02:26.000 --> 00:02:31.000
+therefore written in this case aliment
+00:02:28.000 --> 00:02:33.000
+css which is what to this class but
+00:02:31.000 --> 00:02:36.000
+obviously we can give this class a
+00:02:33.000 --> 00:02:38.000
+whatever else we can say
+00:02:36.000 --> 00:02:40.000
+I don&#39;t know when the page loads
+00:02:38.000 --> 00:02:40.000
+I shop for pulse and just like
+00:02:40.000 --> 00:02:45.000
+this
+00:02:40.000 --> 00:02:49.000
+or another effect I don&#39;t know the wall
+00:02:45.000 --> 00:02:51.000
+or the bouncing or better still the
+00:02:49.000 --> 00:02:56.000
+fade in then that it appears to fai da hopa
+00:02:51.000 --> 00:02:58.000
+the fade out disappears or or
+00:02:56.000 --> 00:03:01.000
+or other effects such as in routes
+00:02:58.000 --> 00:03:07.000
+hidrotec in or their utilities ott per
+00:03:01.000 --> 00:03:10.000
+disappear slidin or slide out
+00:03:07.000 --> 00:03:11.000
+in short, they are all the small effects that
+00:03:10.000 --> 00:03:13.000
+we can go put to loading
+00:03:11.000 --> 00:03:16.000
+of the page for example me on my blog
+00:03:13.000 --> 00:03:18.000
+and lasting rinaldi punto with the
+00:03:16.000 --> 00:03:22.000
+practically this effect on entry
+00:03:18.000 --> 00:03:25.000
+which is very banal let&#39;s see if we see that
+00:03:22.000 --> 00:03:27.000
+this effect is practically in the logo
+00:03:25.000 --> 00:03:30.000
+here that present is called watles
+00:03:27.000 --> 00:03:34.000
+wrong ulta da is very nice because it does
+00:03:30.000 --> 00:03:35.000
+yes come on which best should be
+00:03:34.000 --> 00:03:37.000
+this
+00:03:35.000 --> 00:03:38.000
+exact very pretty because anyway from
+00:03:37.000 --> 00:03:41.000
+a minimum of movement to the page e
+00:03:38.000 --> 00:03:45.000
+it still makes our site animated
+00:03:41.000 --> 00:03:47.000
+how to implement this anime&#39;s
+00:03:45.000 --> 00:03:49.000
+css go and assign it to some
+00:03:47.000 --> 00:03:51.000
+very simple elements
+00:03:49.000 --> 00:03:54.000
+we go down here anyway
+00:03:51.000 --> 00:03:56.000
+the installation through various typologies
+00:03:54.000 --> 00:03:57.000
+including terminals also but not there
+00:03:56.000 --> 00:03:59.000
+interest
+00:03:57.000 --> 00:04:01.000
+trivially if we copied this
+00:03:59.000 --> 00:04:04.000
+code string and then inside
+00:04:01.000 --> 00:04:07.000
+of the two atc copy the andassimo paste
+00:04:04.000 --> 00:04:09.000
+in another tab we will obviously have
+00:04:07.000 --> 00:04:11.000
+this perfect code means that the
+00:04:09.000 --> 00:04:14.000
+link works what we do
+00:04:11.000 --> 00:04:17.000
+we close then copy this line of
+00:04:14.000 --> 00:04:19.000
+code and come and go come man
+00:04:17.000 --> 00:04:19.000
+mano
+00:04:19.000 --> 00:04:28.000
+and of course we are going to create a
+00:04:21.000 --> 00:04:29.000
+html document then html and not
+00:04:28.000 --> 00:04:31.000
+we have to do other than as it comes to us
+00:04:29.000 --> 00:04:33.000
+said here go to insert this line
+00:04:31.000 --> 00:04:35.000
+of code then let&#39;s copy
+00:04:33.000 --> 00:04:38.000
+everything actually all the link and go
+00:04:35.000 --> 00:04:40.000
+paste inside and let&#39;s go
+00:04:38.000 --> 00:04:45.000
+inside then after the title
+00:04:40.000 --> 00:04:49.000
+maybe we paste here we can pull up
+00:04:45.000 --> 00:04:56.000
+OK perfect
+00:04:49.000 --> 00:04:58.000
+we save perfect document and of course
+00:04:56.000 --> 00:05:00.000
+now we have to decide which element
+00:04:58.000 --> 00:05:02.000
+give these animations now inside
+00:05:00.000 --> 00:05:05.000
+of body I will create a test item
+00:05:02.000 --> 00:05:12.000
+so i dont know a gdp a tough paragraph
+00:05:05.000 --> 00:05:17.000
+net this the element they want
+00:05:12.000 --> 00:05:19.000
+animate save and we must do only
+00:05:17.000 --> 00:05:21.000
+this operation dominate as it comes to us
+00:05:19.000 --> 00:05:22.000
+said when for example base and insert
+00:05:21.000 --> 00:05:25.000
+these two classes
+00:05:22.000 --> 00:05:27.000
+then the first that will always be from
+00:05:25.000 --> 00:05:30.000
+recall that souls double iter
+00:05:27.000 --> 00:05:33.000
+animated underscore which is pretty much
+00:05:30.000 --> 00:05:35.000
+the class that will invoke the animation
+00:05:33.000 --> 00:05:38.000
+initial then initialize
+00:05:35.000 --> 00:05:40.000
+the animation and then the other animated
+00:05:38.000 --> 00:05:43.000
+double underscore is followed by the
+00:05:40.000 --> 00:05:43.000
+from the effect in this case it is this one
+00:05:43.000 --> 00:05:46.000
+that I want to go
+00:05:43.000 --> 00:05:49.000
+let&#39;s try for example to put that of
+00:05:46.000 --> 00:05:54.000
+try animating double underscores
+00:05:49.000 --> 00:05:57.000
+bounce then space anime iter 12
+00:05:54.000 --> 00:06:00.000
+bounce let&#39;s save and see what
+00:05:57.000 --> 00:06:02.000
+happens inside of our file
+00:06:00.000 --> 00:06:06.000
+then we bring the file in html lo
+00:06:02.000 --> 00:06:08.000
+we open with a browser and when opening or
+00:06:06.000 --> 00:06:09.000
+when the page is re-loaded
+00:06:08.000 --> 00:06:11.000
+we should have this animation then
+00:06:09.000 --> 00:06:14.000
+at the Bauhaus
+00:06:11.000 --> 00:06:15.000
+obviously me at the moment or the
+00:06:14.000 --> 00:06:18.000
+top left top moment
+00:06:15.000 --> 00:06:21.000
+because by default it starts at the top a
+00:06:18.000 --> 00:06:22.000
+left but I could go on to say no
+00:06:21.000 --> 00:06:26.000
+I know obviously with a style I don&#39;t know
+00:06:22.000 --> 00:06:28.000
+margin top 400 to be a little more
+00:06:26.000 --> 00:06:30.000
+bottom and align the text in the center
+00:06:28.000 --> 00:06:34.000
+then text align center
+00:06:30.000 --> 00:06:36.000
+css base by reloading we have at least one
+00:06:34.000 --> 00:06:38.000
+element a moment cuter
+00:06:36.000 --> 00:06:41.000
+obviously we can go customize it
+00:06:38.000 --> 00:06:49.000
+how we want so I don&#39;t know 50 pixels
+00:06:41.000 --> 00:06:55.000
+color I&#39;m going to put a 4 done 4 that
+00:06:49.000 --> 00:06:57.000
+a gray and a family arial in font
+00:06:55.000 --> 00:07:00.000
+this case we have at least one title a
+00:06:57.000 --> 00:07:02.000
+perfect cutest moment
+00:07:00.000 --> 00:07:04.000
+of course we can in this case
+00:07:02.000 --> 00:07:06.000
+always through anime punto style
+00:07:04.000 --> 00:07:08.000
+change the effect is obviously meters
+00:07:06.000 --> 00:07:11.000
+that not just bounce where we have to do
+00:07:08.000 --> 00:07:14.000
+we have to copy in the class and
+00:07:11.000 --> 00:07:18.000
+stick it practically in place of bonus
+00:07:14.000 --> 00:07:20.000
+hence animated double underscore or
+00:07:18.000 --> 00:07:23.000
+better dubbing to listen to bounce in
+00:07:20.000 --> 00:07:25.000
+perfect copying it from which it takes us
+00:07:23.000 --> 00:07:30.000
+directly also double minds
+00:07:25.000 --> 00:07:32.000
+underscore where refilling some tea
+00:07:30.000 --> 00:07:35.000
+the effect you see that the exchange effect
+00:07:32.000 --> 00:07:38.000
+we could also go to integrate the
+00:07:35.000 --> 00:07:41.000
+our animated css css with gq yesterday
+00:07:38.000 --> 00:07:45.000
+going to specify I&#39;m not going to ago
+00:07:41.000 --> 00:07:48.000
+effects as we see the rollout where
+00:07:45.000 --> 00:07:50.000
+four lines roll out then ensure that
+00:07:48.000 --> 00:07:53.000
+to load the page of ours
+00:07:50.000 --> 00:07:57.000
+text appears this way is eg
+00:07:53.000 --> 00:07:59.000
+after 5 seconds automatically go away e
+00:07:57.000 --> 00:08:02.000
+disappear then as we do we must
+00:07:59.000 --> 00:08:03.000
+go integrate jquery but we see it a
+00:08:02.000 --> 00:08:07.000
+other video so to go to
+00:08:03.000 --> 00:08:10.000
+focus on this integration that
+00:08:07.000 --> 00:08:14.000
+it is not complex but still needs to
+00:08:10.000 --> 00:08:17.000
+a few minutes of explanation is
+00:08:14.000 --> 00:08:19.000
+especially a targeted jquery focus
+00:08:17.000 --> 00:08:22.000
+so for now I&#39;ll leave you to the fun
+00:08:19.000 --> 00:08:25.000
+with cssn foods obviously see you
+00:08:22.000 --> 00:08:25.000
+to the next video

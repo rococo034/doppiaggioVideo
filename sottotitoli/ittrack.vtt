@@ -1,0 +1,375 @@
+WEBVTT
+00:00:00.000 --> 00:00:03.000
+maledette animazioni quante volte ci
+00:00:02.000 --> 00:00:06.000
+siamo trovati a navigare su siti
+00:00:03.000 --> 00:00:09.000
+internet veramente molto molto brutti o
+00:00:06.000 --> 00:00:11.000
+perlomeno molto molto sta p questo
+00:00:09.000 --> 00:00:13.000
+accade perché molto spesso gli
+00:00:11.000 --> 00:00:16.000
+sviluppatori non danno la giusta
+00:00:13.000 --> 00:00:18.000
+importanza alle animazioni ritenendo che
+00:00:16.000 --> 00:00:20.000
+il sito debba solamente fornire le
+00:00:18.000 --> 00:00:23.000
+informazioni ma non tengono conto di una
+00:00:20.000 --> 00:00:25.000
+cosa molto importante chiamata user
+00:00:23.000 --> 00:00:27.000
+experience infatti un sito con
+00:00:25.000 --> 00:00:30.000
+animazioni che attenzione con animazione
+00:00:27.000 --> 00:00:33.000
+non intendo cose che volano a caso
+00:00:30.000 --> 00:00:34.000
+intendo una risposta per ogni azione che
+00:00:33.000 --> 00:00:35.000
+l'utente compie all'interno del nostro
+00:00:34.000 --> 00:00:38.000
+sito
+00:00:35.000 --> 00:00:39.000
+banalmente quando passa col mouse sopra
+00:00:38.000 --> 00:00:42.000
+un tasto il tasto deve compiere
+00:00:39.000 --> 00:00:44.000
+un'azione cambiare colore si ma magari
+00:00:42.000 --> 00:00:46.000
+anche ingrandirsi o spostarsi
+00:00:44.000 --> 00:00:49.000
+leggermente per far capire al navigatore
+00:00:46.000 --> 00:00:52.000
+che cliccando su quel bottone andrà a
+00:00:49.000 --> 00:00:54.000
+compiere effettivamente un'azione queste
+00:00:52.000 --> 00:00:56.000
+animazioni molto spesso sono fatte con
+00:00:54.000 --> 00:00:58.000
+jquery e possono essere anche molto
+00:00:56.000 --> 00:01:01.000
+molto complesse
+00:00:58.000 --> 00:01:05.000
+esiste però un metodo molto più semplice
+00:01:01.000 --> 00:01:07.000
+e anche più veloce chiamato anime it css
+00:01:05.000 --> 00:01:09.000
+in questo video che lo spiego nel
+00:01:07.000 --> 00:01:12.000
+dettaglio non dilunghiamoci troppo
+00:01:09.000 --> 00:01:14.000
+quindi passiamo alla pratica a mo di
+00:01:12.000 --> 00:01:20.000
+iniziare subito andiamo su google è
+00:01:14.000 --> 00:01:22.000
+banalmente digitiamo anime punto css a
+00:01:20.000 --> 00:01:24.000
+questo punto ci verranno proposti alcuni
+00:01:22.000 --> 00:01:27.000
+risultati di ricerca quello che
+00:01:24.000 --> 00:01:29.000
+interessa a noi e animati css che è
+00:01:27.000 --> 00:01:31.000
+raggiungibile tramite l'indirizzo anime
+00:01:29.000 --> 00:01:35.000
+è stile punto
+00:01:31.000 --> 00:01:38.000
+clicchiamo e fin sul ci rendiamo conto
+00:01:35.000 --> 00:01:40.000
+dell'interfaccia molto semplice è
+00:01:38.000 --> 00:01:43.000
+praticamente funziona in questo modo
+00:01:40.000 --> 00:01:46.000
+qui abbiamo praticamente l'effetto
+00:01:43.000 --> 00:01:48.000
+finale che otterremo selezionando un
+00:01:46.000 --> 00:01:50.000
+effetto ovviamente css
+00:01:48.000 --> 00:01:52.000
+chi è praticamente presente nella parte
+00:01:50.000 --> 00:01:54.000
+nella prima sezione po a destra
+00:01:52.000 --> 00:01:56.000
+quindi se passiamo col mouse qui e
+00:01:54.000 --> 00:01:59.000
+scendiamo vediamo che questo elenco
+00:01:56.000 --> 00:02:02.000
+aumenta sempre più e provando banalmente
+00:01:59.000 --> 00:02:05.000
+per fare clic su dissolvenza a sinistra
+00:02:02.000 --> 00:02:08.000
+vediamo effettivamente cosa succede
+00:02:05.000 --> 00:02:14.000
+svanire la fede nel far svanire luminoso
+00:02:08.000 --> 00:02:16.000
+fedi knapp e così flip e hynix flipout
+00:02:14.000 --> 00:02:18.000
+questa praticamente sono tutti gli
+00:02:16.000 --> 00:02:21.000
+effetti quindi tutte le donazioni che
+00:02:18.000 --> 00:02:24.000
+possiamo fare con anime e css quindi
+00:02:21.000 --> 00:02:26.000
+potremo ad esempio far sì che al
+00:02:24.000 --> 00:02:28.000
+caricamento della pagina la nostra
+00:02:26.000 --> 00:02:31.000
+scritta quindi in questo caso aliment
+00:02:28.000 --> 00:02:33.000
+css che è quella che a questa classe ma
+00:02:31.000 --> 00:02:36.000
+ovviamente potremo dare questa classe a
+00:02:33.000 --> 00:02:38.000
+qualunque altro elemento possiamo dire
+00:02:36.000 --> 00:02:40.000
+che a caricamento della pagina non so
+00:02:38.000 --> 00:02:40.000
+faccio la spesa di pulse e proprio come
+00:02:40.000 --> 00:02:45.000
+questo
+00:02:40.000 --> 00:02:49.000
+oppure un altro effetto non so il wall
+00:02:45.000 --> 00:02:51.000
+oppure il bouncing o meglio ancora il
+00:02:49.000 --> 00:02:56.000
+fade in quindi che appaia al fai da hopa
+00:02:51.000 --> 00:02:58.000
+scompaia il fade out oppure oppure
+00:02:56.000 --> 00:03:01.000
+oppure altri effetti come in rotte
+00:02:58.000 --> 00:03:07.000
+hidrotec in oi loro utilità ott per
+00:03:01.000 --> 00:03:10.000
+scomparire slidin o slide out
+00:03:07.000 --> 00:03:11.000
+insomma sono tutti i piccoli effetti che
+00:03:10.000 --> 00:03:13.000
+possiamo andare a mettere al caricamento
+00:03:11.000 --> 00:03:16.000
+della pagina ad esempio io sul mio blog
+00:03:13.000 --> 00:03:18.000
+e duratura rinaldi punto con il
+00:03:16.000 --> 00:03:22.000
+praticamente questo effetto in entrata
+00:03:18.000 --> 00:03:25.000
+che è banalissimo vediamo se si vede che
+00:03:22.000 --> 00:03:27.000
+è praticamente nel logo questo effetto
+00:03:25.000 --> 00:03:30.000
+qui che presente si chiama watles
+00:03:27.000 --> 00:03:34.000
+sbaglia ulta da è molto carino perché fa
+00:03:30.000 --> 00:03:35.000
+sì andiamo quale best dovrebbe essere
+00:03:34.000 --> 00:03:37.000
+questo
+00:03:35.000 --> 00:03:38.000
+esatto molto carina perché comunque da
+00:03:37.000 --> 00:03:41.000
+un minimo di movimento alla pagina e
+00:03:38.000 --> 00:03:45.000
+rende comunque il nostro sito animato
+00:03:41.000 --> 00:03:47.000
+come fare a implementare questo anime di
+00:03:45.000 --> 00:03:49.000
+css andare ad assegnarlo a degli
+00:03:47.000 --> 00:03:51.000
+elementi molto semplice
+00:03:49.000 --> 00:03:54.000
+scendiamo qui abbiamo comunque
+00:03:51.000 --> 00:03:56.000
+l'istallazione tramite varie tipologie
+00:03:54.000 --> 00:03:57.000
+tra cui anche terminali ma non ci
+00:03:56.000 --> 00:03:59.000
+interessano
+00:03:57.000 --> 00:04:01.000
+banalmente se noi copiassi questa
+00:03:59.000 --> 00:04:04.000
+stringa di codice e quindi all'interno
+00:04:01.000 --> 00:04:07.000
+dei due atc copia il andassimo incollare
+00:04:04.000 --> 00:04:09.000
+in un'altra scheda avremo ovviamente
+00:04:07.000 --> 00:04:11.000
+questo codice perfetto vuol dire che il
+00:04:09.000 --> 00:04:14.000
+collegamento funziona cosa facciamo
+00:04:11.000 --> 00:04:17.000
+chiudiamo copiamo quindi questa riga di
+00:04:14.000 --> 00:04:19.000
+codice e andiamo e andiamo andiamo man
+00:04:17.000 --> 00:04:19.000
+mano
+00:04:19.000 --> 00:04:28.000
+e andiamo ovviamente a creare un
+00:04:21.000 --> 00:04:29.000
+documento html quindi html e non
+00:04:28.000 --> 00:04:31.000
+dobbiamo far altro che come ci viene
+00:04:29.000 --> 00:04:33.000
+detto qui andare a inserire questa riga
+00:04:31.000 --> 00:04:35.000
+di codice quindi passiamo a copiare
+00:04:33.000 --> 00:04:38.000
+tutto in realtà tutto il link e andare
+00:04:35.000 --> 00:04:40.000
+incollare all'interno di ed andiamo
+00:04:38.000 --> 00:04:45.000
+all'interno di quindi dopo il title
+00:04:40.000 --> 00:04:49.000
+incolliamo magari qua possiamo tirare su
+00:04:45.000 --> 00:04:56.000
+ok perfetto
+00:04:49.000 --> 00:04:58.000
+salviamo documento perfetto e ovviamente
+00:04:56.000 --> 00:05:00.000
+ora dobbiamo decidere a quale elemento
+00:04:58.000 --> 00:05:02.000
+dare queste animazioni ora all'interno
+00:05:00.000 --> 00:05:05.000
+di body creerò un elemento di prova
+00:05:02.000 --> 00:05:12.000
+quindi non so un pil un paragrafo dure
+00:05:05.000 --> 00:05:17.000
+netto questo l'elemento che voglion
+00:05:12.000 --> 00:05:19.000
+animare salvo e dobbiamo fare solo
+00:05:17.000 --> 00:05:21.000
+questa operazione dominare come ci viene
+00:05:19.000 --> 00:05:22.000
+detto quando ad esempio base ed inserire
+00:05:21.000 --> 00:05:25.000
+queste due classi
+00:05:22.000 --> 00:05:27.000
+allora la prima che sarà sempre da
+00:05:25.000 --> 00:05:30.000
+richiamare che anime iter doppio
+00:05:27.000 --> 00:05:33.000
+underscore animated che è praticamente
+00:05:30.000 --> 00:05:35.000
+la classe che richiamerà l'animazione
+00:05:33.000 --> 00:05:38.000
+iniziale quindi inizializzare
+00:05:35.000 --> 00:05:40.000
+l'animazione e poi l'altro animated
+00:05:38.000 --> 00:05:43.000
+doppio underscore è seguito dal
+00:05:40.000 --> 00:05:43.000
+dall'effetto in questo caso è questo qua
+00:05:43.000 --> 00:05:46.000
+che voglio andare
+00:05:43.000 --> 00:05:49.000
+proviamo ad esempio mettere quello di
+00:05:46.000 --> 00:05:54.000
+prova che animate doppio underscore
+00:05:49.000 --> 00:05:57.000
+bounce quindi spazio anime iter 12
+00:05:54.000 --> 00:06:00.000
+bounce salviamo e andiamo a vedere cosa
+00:05:57.000 --> 00:06:02.000
+accade all'interno di del nostro file
+00:06:00.000 --> 00:06:06.000
+quindi portiamo il file in html lo
+00:06:02.000 --> 00:06:08.000
+apriamo con un browser e all'apertura o
+00:06:06.000 --> 00:06:09.000
+alla ri caricamento della pagina
+00:06:08.000 --> 00:06:11.000
+dovremmo avere questa animazione quindi
+00:06:09.000 --> 00:06:14.000
+al Bauhaus
+00:06:11.000 --> 00:06:15.000
+ovviamente io in questo momento o il
+00:06:14.000 --> 00:06:18.000
+momento in cima in alto a sinistra
+00:06:15.000 --> 00:06:21.000
+perché di default parte in alto a
+00:06:18.000 --> 00:06:22.000
+sinistra ma io potrei andare a dire non
+00:06:21.000 --> 00:06:26.000
+so ovviamente con uno stile non so
+00:06:22.000 --> 00:06:28.000
+margin top 400 per essere un po più
+00:06:26.000 --> 00:06:30.000
+basso e allineare il testo in centro
+00:06:28.000 --> 00:06:34.000
+quindi text align center
+00:06:30.000 --> 00:06:36.000
+css base ricaricando abbiamo almeno un
+00:06:34.000 --> 00:06:38.000
+elemento un attimino più carino
+00:06:36.000 --> 00:06:41.000
+ovviamente potremo andare customizzarlo
+00:06:38.000 --> 00:06:49.000
+come vogliamo quindi non so 50 pixel
+00:06:41.000 --> 00:06:55.000
+color io vado a mettere un 4 fatto 4 che
+00:06:49.000 --> 00:06:57.000
+un grigino e un font family arial in
+00:06:55.000 --> 00:07:00.000
+questo caso abbiamo almeno un titolo un
+00:06:57.000 --> 00:07:02.000
+attimino più carino perfetto
+00:07:00.000 --> 00:07:04.000
+ovviamente possiamo in questo caso
+00:07:02.000 --> 00:07:06.000
+sempre tramite anime punto style
+00:07:04.000 --> 00:07:08.000
+cambiare l'effetto è ovviamente metri
+00:07:06.000 --> 00:07:11.000
+che non solo bounce in cui dobbiamo fare
+00:07:08.000 --> 00:07:14.000
+dobbiamo copiare nella classe e
+00:07:11.000 --> 00:07:18.000
+incollarla praticamente a posto di bonus
+00:07:14.000 --> 00:07:20.000
+quindi animated doppio underscore o
+00:07:18.000 --> 00:07:23.000
+meglio doppiando ascoltare bounce in
+00:07:20.000 --> 00:07:25.000
+perfetto copiandolo da cui ci prende
+00:07:23.000 --> 00:07:30.000
+direttamente anche animi terdoppio
+00:07:25.000 --> 00:07:32.000
+underscore dove ricaricando del tè
+00:07:30.000 --> 00:07:35.000
+l'effetto vedi che l'effetto cambio
+00:07:32.000 --> 00:07:38.000
+potremmo anche andare ad integrare il
+00:07:35.000 --> 00:07:41.000
+nostro css animati css con gq ieri
+00:07:38.000 --> 00:07:45.000
+andando a specificare non sto andando fa
+00:07:41.000 --> 00:07:48.000
+effetti come vediamo il rollout dove
+00:07:45.000 --> 00:07:50.000
+quattro linee roll out quindi far sì che
+00:07:48.000 --> 00:07:53.000
+a caricamento della pagina del nostro
+00:07:50.000 --> 00:07:57.000
+testo appaia in questo modo è ad esempio
+00:07:53.000 --> 00:07:59.000
+dopo 5 secondi in automatico vada via e
+00:07:57.000 --> 00:08:02.000
+sparisca quindi come facciamo dobbiamo
+00:07:59.000 --> 00:08:03.000
+andare integrare jquery ma lo vediamo un
+00:08:02.000 --> 00:08:07.000
+altro video così da andare a
+00:08:03.000 --> 00:08:10.000
+focalizzarci su questa integrazione che
+00:08:07.000 --> 00:08:14.000
+non è complessa ma necessita comunque di
+00:08:10.000 --> 00:08:17.000
+qualche minuto di spiegazione è
+00:08:14.000 --> 00:08:19.000
+soprattutto un focus mirato jquery
+00:08:17.000 --> 00:08:22.000
+quindi per ora ti lascio al divertimento
+00:08:19.000 --> 00:08:25.000
+con alimenti cssn ovviamente ci vediamo
+00:08:22.000 --> 00:08:25.000
+al prossimo video
