@@ -48,7 +48,6 @@ if(isset($_POST["submit"])){
              $testo .= $word->text . " "; //mi costruisco il testo comleto senza timestamp
 			 $durata = $word->end;
     }
-	var_dump($durata);
 
 
 	$testiTradotto = $translate->translate($testo, "en", "it", "es", "fr", "zh"); //dal testo completo mi calcolo il testo tradotto in tutte le lingue
@@ -245,6 +244,15 @@ if(isset($_POST["submit"])){
 	// $zip->addFile(ROOT_PATH . "sottotitoli/estrack.vtt", 'estrack.vtt');
 	// //$zip->addFile(ROOT_PATH . "sottotitoli/" . $local_file_name . ".mp4", $local_file_name . ".mp4");
 	// $zip->close();
+	function getMp3Legth($file) {
+
+		$command    = "mp3info -x {$file} | grep Length:";
+	
+		$length     = exec($command);
+		$length     = explode('h:', str_replace(' ', '', $length));
+		return      $length;
+	
+	  }
 
 	$linkBitly = $bitly->getLink($audioIt);
 	$remote_file = ($linkBitly);
@@ -259,6 +267,53 @@ if(isset($_POST["submit"])){
 				fwrite($file, $file_op, strlen($file_op));
 		}
 	}
-	echo 'timer.innerHTML = "0"';
+	$time = getMp3Legth($local_folder."audioIt" . ".mp4");
+	var_dump($time);
+	
+
+	$linkBitly = $bitly->getLink($audioEn);
+	$remote_file = ($linkBitly);
+		
+	$local_folder = ROOT_PATH . "sottotitoli/";
+	$remote_file_open = fopen($remote_file, 'r');
+
+	$local_file_name = basename($remote_file);
+	if (($file = fopen($local_folder."audioEn" . ".mp4",'w'))){
+		while ($file_op = fread($remote_file_open, 8192)) {
+			 	$dmsScaricata += strlen($file_op);
+				fwrite($file, $file_op, strlen($file_op));
+		}
+	}
+
+	$linkBitly = $bitly->getLink($audioEs);
+	$remote_file = ($linkBitly);
+		
+	$local_folder = ROOT_PATH . "sottotitoli/";
+	$remote_file_open = fopen($remote_file, 'r');
+
+	$local_file_name = basename($remote_file);
+	if (($file = fopen($local_folder."audioEs" . ".mp4",'w'))){
+		while ($file_op = fread($remote_file_open, 8192)) {
+			 	$dmsScaricata += strlen($file_op);
+				fwrite($file, $file_op, strlen($file_op));
+		}
+	}
+
+	$linkBitly = $bitly->getLink($audioFr);
+	$remote_file = ($linkBitly);
+		
+	$local_folder = ROOT_PATH . "sottotitoli/";
+	$remote_file_open = fopen($remote_file, 'r');
+
+	$local_file_name = basename($remote_file);
+	if (($file = fopen($local_folder."audioFr" . ".mp4",'w'))){
+		while ($file_op = fread($remote_file_open, 8192)) {
+			 	$dmsScaricata += strlen($file_op);
+				fwrite($file, $file_op, strlen($file_op));
+		}
+	}
+
+
+	echo '<script> timer.innerHTML = "0" </script>';
 
 }
