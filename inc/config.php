@@ -1,10 +1,6 @@
 <?php
-define('ROOT_URL', 'http://localhost/lav/');
-define('ROOT_PATH', '/Applications/XAMPP/xamppfiles/htdocs/lav/');
+define('ROOT_URL', 'http://localhost/doppiaggioVideo/');
+define('ROOT_PATH', '/Applications/XAMPP/xamppfiles/htdocs/doppiaggioVideo/');
 
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'paratamp');
 
 ?>
