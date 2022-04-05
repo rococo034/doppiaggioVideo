@@ -70,55 +70,9 @@ if(isset($_POST["submit"])){
 				break;
 		}
 	}
-/*
-//ITALIANO
-	$testoIt = urlencode($testoIt);
-	$audioIt = $textToSpeech->getAudio($testoIt, "it-IT-ElsaNeural");
-
-//INGLESE
-	$testoEn = urlencode($testoEn);
-	$audioEn = $textToSpeech->getAudio($testoEn, "en-US-AriaNeural");
-	
-//FRANCESE
-	$testoFr = urlencode($testoFr); 
-	$audioFr = $textToSpeech->getAudio($testoFr, "fr-FR-DeniseNeural");
-
-//SPAGNOLO
-	$testoEs = urlencode($testoEs);
-	$audioEs = $textToSpeech->getAudio($testoEs, "es-ES-ElviraNeural");
-
-//CINESE 
-	//$testoZh = urlencode($testoZh); 
-	//$AudioZh = $textToSpeech->getAudio($testoZh, "zh-CN-XiaoxiaoNeural");
-*/
-	//var_dump($jsonText);
-
-	echo '<div class="input-group mt-5" style="">';
-		echo '<span class="input-group-text">Testo completo IT</span>';
-		echo '<textarea class="form-control" aria-label="textarea">' . urldecode($testo) . '</textarea>';
-	echo '</div>';
-
-	echo '<div class="input-group mt-5" style="">';
-		echo '<span class="input-group-text">Testo completo EN</span>';
-		echo '<textarea class="form-control" aria-label="textarea">' . urldecode($testoEn) . '</textarea>';
-	echo '</div>';
-
-	echo '<div class="input-group mt-5" style="">';
-		echo '<span class="input-group-text">Testo completo FR</span>';
-		echo '<textarea class="form-control" aria-label="textarea">' . urldecode($testoFr) . '</textarea>';
-	echo '</div>';
-
-	echo '<div class="input-group mt-5" style="">';
-		echo '<span class="input-group-text">Testo completo ES</span>';
-		echo '<textarea class="form-control" aria-label="textarea">' . urldecode($testoEs) . '</textarea>';
-	echo '</div>';
-
 
 	$lungArray = count($jsonText)-1;
 	foreach($jsonText as $element){
-		$_SESSION["tempo"] = time();
-   			echo date("H:i:s", (time() - ($_SESSION["tempo"])));
-			echo date("d/m/Y");
 			$text = $element->text;
 	 			
 			echo ' <div style=" ' . $stileTimeStamp . ' " class="input-group mt-5"> ';
@@ -169,62 +123,31 @@ if(isset($_POST["submit"])){
 			//ITALIANO
 			$textIt = urlencode($textIt);
 			$audioIt = $textToSpeech->getAudio($textIt, "it-IT-ElsaNeural");
+			echo $audioIt;
 			$textIt = urldecode($textIt);
 
 			//INGLESE
 			$textEn = urlencode($textEn);
 			$audioEn = $textToSpeech->getAudio($textEn, "en-US-AriaNeural");
+			echo $audioIt;
 			$textEn = urldecode($textEn);
 			
 			//FRANCESE
 			$textFr = urlencode($textFr); 
 			$audioFr = $textToSpeech->getAudio($textFr, "fr-FR-DeniseNeural");
+			echo $audioIt;
 			$textFr = urldecode($textFr);
 
 			//SPAGNOLO
 			$textEs = urlencode($textEs);
 			$audioEs = $textToSpeech->getAudio($textEs, "es-ES-ElviraNeural");
+			echo $audioIt;
 			$textEs = urldecode($textEs);
 
 			//CINESE 
 			//$testoZh = urlencode($testoZh); 
 			//$AudioZh = $textToSpeech->getAudio($testoZh, "zh-CN-XiaoxiaoNeural");
 			
-			echo '<div class="col-sm-4 col-sm-offset-4 embed-responsive embed-responsive-4by3 mt-4">';
-			echo '<h4>Audio Italiano</h4>';
-				echo '<audio controls class="">';
-					echo '<source src="' . $audioIt . '" type="audio/ogg"> ';
-					echo '<source src="' . $audioIt . '" type="audio/mpeg"> ';
-					echo 'Your browser does not support the audio tag.';
-				echo '</audio>';
-			echo '</div>';
-
-			echo '<div class="col-sm-4 col-sm-offset-4 embed-responsive embed-responsive-4by3 mt-4">';
-			echo '<h4>Audio Inglese</h4>';
-				echo '<audio controls class="">';
-					echo '<source src="' . $audioEn . '" type="audio/ogg"> ';
-					echo '<source src="' . $audioEn . '" type="audio/mpeg"> ';
-					echo 'Your browser does not support the audio tag.';
-				echo '</audio>';
-			echo '</div>';
-
-			echo '<div class="col-sm-4 col-sm-offset-4 embed-responsive embed-responsive-4by3 mt-4">';
-			echo '<h4>Audio Francese</h4>';
-				echo '<audio controls class="">';
-					echo '<source src="' . $audioFr . '" type="audio/ogg"> ';
-					echo '<source src="' . $audioFr . '" type="audio/mpeg"> ';
-					echo 'Your browser does not support the audio tag.';
-				echo '</audio>';
-			echo '</div>';
-
-			echo '<div class="col-sm-4 col-sm-offset-4 embed-responsive embed-responsive-4by3 mt-4">';
-			echo '<h4>Audio Spagnolo</h4>';
-				echo '<audio controls class="">';
-					echo '<source src="' . $audioEs . '" type="audio/ogg"> ';
-					echo '<source src="' . $audioEs . '" type="audio/mpeg"> ';
-					echo 'Your browser does not support the audio tag.';
-				echo '</audio>';
-			echo '</div>';
 
 			$start = $element->start;
 			$end = $element->end;
@@ -294,21 +217,6 @@ if(isset($_POST["submit"])){
 		fclose($file);
 	}
 	
-	//ITALIANO
-	$testoIt = urlencode($testoIt);
-	$audioIt = $textToSpeech->getAudio($testoIt, "it-IT-ElsaNeural");
-
-	//INGLESE
-		$testoEn = urlencode($testoEn);
-		$audioEn = $textToSpeech->getAudio($testoEn, "en-US-AriaNeural");
-		
-	//FRANCESE
-		$testoFr = urlencode($testoFr); 
-		$audioFr = $textToSpeech->getAudio($testoFr, "fr-FR-DeniseNeural");
-
-	//SPAGNOLO
-		$testoEs = urlencode($testoEs);
-		$audioEs = $textToSpeech->getAudio($testoEs, "es-ES-ElviraNeural");
 
 	unlink(ROOT_PATH . "sottotitoli/file.zip");
 	$zip->open(ROOT_PATH . "sottotitoli/file.zip", ZipArchive::CREATE);

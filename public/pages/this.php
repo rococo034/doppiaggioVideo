@@ -11,7 +11,7 @@
 ?>
 
 <center>
-    <h2 class="mt-4">Inserisci un link youtube</h2>
+    <h2 class="mt-4">Inserisci un link youtubeessxs</h2>
 </center>
 
 <form action="" method="post" >
@@ -46,19 +46,6 @@
 
 
 <?php require_once ROOT_PATH . 'inc/translate.php' //importo il file che fa le call alle api?> 
-
-
-
-<!-- <?php //foreach($jsonText as $element): $cont++?>
-    <div style="<?php //echo $stileTimeStamp?>" class="input-group mt-2" style="">
-        <span style="width:150px" class="input-group-text"><?php //echo "Time-stamp " . $cont?></span>
-        <textarea class="form-control" aria-label="textarea"><?php //echo $element->text?></textarea>
-        <span style="width:150px" class="input-group-text"><?php //echo "Start: " . "<b>&nbsp&nbsp" . $element->start . "</b>"?></span>
-        <span style="width:150px" class="input-group-text"><?php //echo "End: " . "<b>&nbsp&nbsp" . $element->end . "</b>"?></span>
-        <span style="width:150px" class="input-group-text"><?php //echo "Dur: " . "<b>&nbsp&nbsp" . $element->dur . "</b>"?></span>
-    </div>
-<?php //endforeach;?> -->
-
 
 <div class="col-sm-4 col-sm-offset-4 embed-responsive embed-responsive-4by3 mt-4">
     <h4>Audio Italiano</h4>
