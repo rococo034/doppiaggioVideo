@@ -1,5 +1,7 @@
 {
     "require": {
-        "narendravaghela/bitly-client": "^1.0"
+        "narendravaghela/bitly-client": "^1.0",
+        "php-ffmpeg/php-ffmpeg": "^0.19.0",
+        "php-ffmpeg/php-ffmpeg": "dev-master"
     }
 }

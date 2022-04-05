@@ -4,6 +4,7 @@ require_once ROOT_PATH . "classes/SpeechToText.php";
 require_once ROOT_PATH . "classes/TextToSpeech.php";
 require_once ROOT_PATH . "classes/LinkYt.php";
 require_once ROOT_PATH . "classes/Bitly.php";
+require ROOT_PATH . 'vendor/autoload.php';
 
 
 
@@ -15,6 +16,7 @@ $vttEs= "";
 $vttFr= "";
 $vttZh = "";
 $tot = 0;
+$dmsScaricata = 0;
 
 $cont = 0;
 
@@ -44,10 +46,13 @@ if(isset($_POST["submit"])){
 
 	foreach($jsonText as $word){
              $testo .= $word->text . " "; //mi costruisco il testo comleto senza timestamp
+			 $durata = $word->end;
     }
+	var_dump($durata);
 
 
 	$testiTradotto = $translate->translate($testo, "en", "it", "es", "fr", "zh"); //dal testo completo mi calcolo il testo tradotto in tutte le lingue
+
 
 
 	foreach($testiTradotto as $testo_tradotto){
@@ -71,7 +76,22 @@ if(isset($_POST["submit"])){
 		}
 	}
 
+	//ITALIANO
+	$testoIt = urlencode($testoIt);
+	$audioIt = $textToSpeech->getAudio($testoIt, "it-IT-ElsaNeural");
+	//INGLESE
+		$testoEn = urlencode($testoEn);
+		$audioEn = $textToSpeech->getAudio($testoEn, "en-US-AriaNeural");
+		
+	//FRANCESE
+		$testoFr = urlencode($testoFr); 
+		$audioFr = $textToSpeech->getAudio($testoFr, "fr-FR-DeniseNeural");
+	//SPAGNOLO
+		$testoEs = urlencode($testoEs);
+		$audioEs = $textToSpeech->getAudio($testoEs, "es-ES-ElviraNeural");
+
 	$lungArray = count($jsonText)-1;
+	/*
 	foreach($jsonText as $element){
 			$text = $element->text;
 	 			
@@ -170,63 +190,75 @@ if(isset($_POST["submit"])){
 	file_put_contents(ROOT_PATH . "sottotitoli/frtrack.vtt", implode("\n", $subFr));
 	//file_put_contents(ROOT_PATH . "sottotitoli/zhtrack.vtt", implode("\n", $subZh));
 	
-	
-	$linkYt = $getLinkYt->getLink($idVideo);
-	$linkBitly = $bitly->getLink($linkYt);
+	*/
+	//$linkYt = $getLinkYt->getLink($idVideo);
+	//$linkBitly = $bitly->getLink($linkYt);
 	
 
 	
-	$remote_file = ($linkBitly);
-	$local_folder = ROOT_PATH . "sottotitoli/";
-	$remote_file_open = fopen($remote_file, 'r');
+	//$remote_file = ($linkBitly);
+	//$local_folder = ROOT_PATH . "sottotitoli/";
+	//$remote_file_open = fopen($remote_file, 'r');
 
-	$local_file_name = basename($remote_file);
-	//var_dump(fopen($local_folder.$local_file_name.".mp4",'w'));
-	if (($file = fopen($local_folder.$local_file_name . ".mp4",'w'))){
+	//$local_file_name = basename($remote_file);
+	//if (($file = fopen($local_folder.$local_file_name . ".mp4",'w'))){
 		//$lng = fread($remote_file_open, 8192);
 		//var_dump($lng);
-		while ($dimensione = fread($remote_file_open, 8192)) {
-			$tot += strlen($dimensione);
-		}
-		fclose($remote_file_open);
-		fclose($file);
-	}
+		//while ($dimensione = fread($remote_file_open, 8192)) {
+		//	$tot += strlen($dimensione);
+		//}
+		//fclose($remote_file_open);
+		//fclose($file);
+	//}
 	
 
 	
+	// $remote_file = ($linkBitly);
+		
+	// $local_folder = ROOT_PATH . "sottotitoli/";
+	// $remote_file_open = fopen($remote_file, 'r');
+
+	// $local_file_name = basename($remote_file);
+	// //var_dump(fopen($local_folder.$local_file_name.".mp4",'w'));
+	// if (($file = fopen($local_folder.$local_file_name . ".mp4",'w'))){
+	// 	while ($file_op = fread($remote_file_open, 8192)) {
+	// 		 	$dmsScaricata += strlen($file_op);
+	// 			fwrite($file, $file_op, strlen($file_op));
+	// 			//var_dump($prova);
+	// 			echo '<script>';
+	// 			echo 'var elem = document.getElementById("myBar2");';
+	// 			echo 'var elem2 = document.getElementById("myBarNumber2");';
+	// 			echo 'elem.style.width = "' . number_format(($dmsScaricata/$tot)*100) .'%";';
+	// 			echo 'elem2.innerHTML = "' . number_format(($dmsScaricata/$tot)*100) .'%";';
+	// 			echo '</script>';
+	// 	}
+	// 	fclose($remote_file_open);
+	// 	fclose($file);
+	// }
+	
+
+	// unlink(ROOT_PATH . "sottotitoli/file.zip");
+	// $zip->open(ROOT_PATH . "sottotitoli/file.zip", ZipArchive::CREATE);
+	// $zip->addFile(ROOT_PATH . "sottotitoli/entrack.vtt", 'entrack.vtt');
+	// $zip->addFile(ROOT_PATH . "sottotitoli/ittrack.vtt", 'ittrack.vtt');
+	// $zip->addFile(ROOT_PATH . "sottotitoli/frtrack.vtt", 'frtrack.vtt');
+	// $zip->addFile(ROOT_PATH . "sottotitoli/estrack.vtt", 'estrack.vtt');
+	// //$zip->addFile(ROOT_PATH . "sottotitoli/" . $local_file_name . ".mp4", $local_file_name . ".mp4");
+	// $zip->close();
+
+	$linkBitly = $bitly->getLink($audioIt);
 	$remote_file = ($linkBitly);
 		
 	$local_folder = ROOT_PATH . "sottotitoli/";
 	$remote_file_open = fopen($remote_file, 'r');
 
 	$local_file_name = basename($remote_file);
-	//var_dump(fopen($local_folder.$local_file_name.".mp4",'w'));
-	if (($file = fopen($local_folder.$local_file_name . ".mp4",'w'))){
+	if (($file = fopen($local_folder."audioIt" . ".mp4",'w'))){
 		while ($file_op = fread($remote_file_open, 8192)) {
 			 	$dmsScaricata += strlen($file_op);
 				fwrite($file, $file_op, strlen($file_op));
-				//var_dump($prova);
-				echo '<script>';
-				echo 'var elem = document.getElementById("myBar2");';
-				echo 'var elem2 = document.getElementById("myBarNumber2");';
-				echo 'elem.style.width = "' . number_format(($dmsScaricata/$tot)*100) .'%";';
-				echo 'elem2.innerHTML = "' . number_format(($dmsScaricata/$tot)*100) .'%";';
-				echo '</script>';
 		}
-		fclose($remote_file_open);
-		fclose($file);
 	}
-	
-
-	unlink(ROOT_PATH . "sottotitoli/file.zip");
-	$zip->open(ROOT_PATH . "sottotitoli/file.zip", ZipArchive::CREATE);
-	$zip->addFile(ROOT_PATH . "sottotitoli/entrack.vtt", 'entrack.vtt');
-	$zip->addFile(ROOT_PATH . "sottotitoli/ittrack.vtt", 'ittrack.vtt');
-	$zip->addFile(ROOT_PATH . "sottotitoli/frtrack.vtt", 'frtrack.vtt');
-	$zip->addFile(ROOT_PATH . "sottotitoli/estrack.vtt", 'estrack.vtt');
-	//$zip->addFile(ROOT_PATH . "sottotitoli/" . $local_file_name . ".mp4", $local_file_name . ".mp4");
-	$zip->close();
-
 	echo 'timer.innerHTML = "0"';
 
 }

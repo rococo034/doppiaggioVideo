@@ -11,7 +11,7 @@
 ?>
 
 <center>
-    <h2 class="mt-4">Inserisci un link youtubeessxs</h2>
+    <h2 class="mt-4">Inserisci un link youtube</h2>
 </center>
 
 <form action="" method="post" >
